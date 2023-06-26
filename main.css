@@ -1,0 +1,246 @@
+
+body{
+  background-color: #011B33 !important;
+  font-family: 'Montserrat', sans-serif;
+  color: white !important;
+}
+p{
+  font-family: 'Montserrat';
+}
+.btn-primary{
+  background-color: #3A95C9 !important;
+  padding: 5px 25px !important;
+  border-radius: 10px !important;
+}
+.gradient{ 
+  background: linear-gradient(90.09deg, #0CE37B 0.07%, #1393EC 97.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+}
+.heading{ 
+  background: linear-gradient(92.46deg, #1393EC 25.96%, #0CE37B 48.07%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: bold;
+}
+.compiler-btn{
+  background: #3A95C9 !important;
+  padding: 10px 40px !important;
+}
+.oferring-heading{
+  background: linear-gradient(92.46deg, #1393EC 25.96%, #0CE37B 48.07%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-text-fill-color: transparent;
+font-weight: bold;
+font-size: 32px;
+}
+.problems-wrapper-heading{
+  background: linear-gradient(92.46deg, #1393EC 25.81%, #FFFFFF 100.6%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-text-fill-color: transparent;
+font-weight: bold;
+font-size: 38px;
+}
+.btn-outline-light{
+  padding: 10px 60px !important;
+}
+
+.h3-gradient{
+background: linear-gradient(04.09deg, #0CE37B 48.07%, #1393EC 25.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-text-fill-color: transparent
+}
+.btn-primary2{
+  width: 100%;
+  background-color: #3A95C9 !important;
+  color: white;
+}
+.hr{
+  margin: auto !important;
+  width: 200px;
+  background: #1393ECAD;
+  border: 1px solid #1393ECAD
+}
+.image-wrapper{
+  background-image: url(/images/Ellipse\ 16.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-gradient{
+  background-image: url(/images/Ellipse.png);
+  background-position: left;
+  background-size:30%;
+  background-repeat: no-repeat;
+}
+.carousel-slide{
+background: radial-gradient(130.48% 130.48% at 25.54% -13.85%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+
+/* OTP POPUP PAGE */
+.opt-button{
+  background-color:#3A95C9 !important;
+}
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otp-input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: 0 5px;
+}
+.list-group{
+  background-color: #011B33!important;
+  border: none !important;
+}
+.modal-body { 
+  background-color: #011B33!important;
+  border: none !important;
+}
+.questionHeadings{
+  color: #1393EB !important;
+  font-size: 20px;
+}
+.vidlink{
+  color:#0CE37B;
+}
+.compiler-hero-wrapper{
+  padding-top: 6em !important;
+}
+.navbar{
+height: 70px !important;
+display: flex;
+justify-content: left!important;
+background: #000b184a !important;
+}
+.nav-wrapper{
+align-items: center !important;
+justify-content: center !important;
+}
+.logo-wrapper{
+margin-right: 500px !important;
+}
+
+.navmenu{
+display: flex;
+justify-content:center !important;
+gap: 3em;
+}
+li{
+transition: 0.7s ease !important;
+}
+.navlink:hover{
+color: dodgerblue !important;
+}
+.hamburger{
+display: none;
+cursor: pointer;
+}
+.bar{
+display: block;
+width: 20px;
+height: 3px;
+margin: 5px auto;
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+background-color: white;
+}
+
+@media (max-width:768px) {
+.hamburger{
+  display: block;
+}
+.logo-wrapper{
+  margin-right: 0!important;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between!important;
+  }
+.navmenu{
+  position: fixed;
+  left: -100% !important;
+  top: 70px !important;
+  gap: 3em;
+  padding-right: 150px !important;
+  flex-direction: column;
+  background-color: #011C34;
+  width: 100% !important;
+  height: 100vh !important;
+  text-align: left !important;
+  align-items: left !important;
+  transition: 0.3s;
+}
+
+.hidden-li{
+  display: block !important;
+}
+.h3-gradient{
+  font-size: 19px !important;
+}
+.questionHeadings{
+  font-size: 17px;
+}
+.gradient-paragraph{
+  font-size: 13px;
+}
+}
+
+@media (min-width:900px) {
+  form{
+      width: 50% !important;
+}
+  
+}
+@media (width>=820px) {
+.logo-wrapper{
+  margin-right: 0!important;
+
+}
+.navbar{
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+.navmenu{
+  margin-left: 200px;
+}
+  
+}
+@media (width>=1024px) {
+
+.navmenu{
+  margin-left: 370px;
+}
+.hidden-li{
+  display: none;
+}
+  
+}
+@media (width>=1280px) {
+
+.navmenu{
+  margin-left: 450px;
+}
+.hidden-li{
+  display: none;
+}
+  
+}
